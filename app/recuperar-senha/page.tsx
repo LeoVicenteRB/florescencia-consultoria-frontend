@@ -1,0 +1,1 @@
+import {AuthForm} from '@/components/auth-form';export const metadata={title:'Recuperar senha'};export default function Page(){return <section className="panel wrap"><h1>Recuperar senha</h1><p>Informe o e-mail usado no cadastro.</p><AuthForm mode="recover"/></section>}

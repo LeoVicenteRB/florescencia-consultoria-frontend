@@ -1,0 +1,1 @@
+import {Library} from '@/components/library';export const metadata={title:'Documentos'};export default function Page(){return <section className="panel wrap"><p className="eyebrow">PRÉVIAS SEGURAS</p><h1>Biblioteca documental</h1><p className="lead">Explore capas e categorias. Os documentos completos permanecem protegidos.</p><Library/></section>}

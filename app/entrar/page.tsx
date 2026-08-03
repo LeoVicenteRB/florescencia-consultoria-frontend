@@ -1,0 +1,1 @@
+import Link from 'next/link';import {AuthForm} from '@/components/auth-form';export const metadata={title:'Entrar'};export default function Page(){return <section className="panel wrap"><h1>Entrar</h1><AuthForm mode="login"/><p><Link href="/recuperar-senha">Esqueci minha senha</Link> · <Link href="/cadastro">Criar conta</Link></p></section>}

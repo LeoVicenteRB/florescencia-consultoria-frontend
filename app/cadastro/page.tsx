@@ -1,0 +1,1 @@
+import {AuthForm} from '@/components/auth-form';export const metadata={title:'Cadastro'};export default function Page(){return <section className="panel wrap"><h1>Crie seu acesso</h1><AuthForm mode="register"/></section>}

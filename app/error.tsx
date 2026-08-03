@@ -1,0 +1,1 @@
+'use client';export default function Error({reset}:{reset:()=>void}){return <section className="panel wrap"><h1>Algo saiu da ordem.</h1><p>Não foi possível carregar esta página.</p><button className="btn primary" onClick={reset}>Tentar novamente</button></section>}

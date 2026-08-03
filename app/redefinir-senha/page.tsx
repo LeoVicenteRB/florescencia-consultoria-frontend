@@ -1,0 +1,1 @@
+export const metadata={title:'Redefinir senha'};export default function Page(){return <section className="panel wrap"><h1>Redefinir senha</h1><form className="form"><label className="field">Nova senha<input type="password" minLength={8} required/></label><button className="btn primary">Salvar nova senha</button></form></section>}

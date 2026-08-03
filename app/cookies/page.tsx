@@ -1,0 +1,1 @@
+export const metadata={title:'Cookies'};export default function Page(){return <section className="panel wrap"><h1>Política de cookies</h1><p>Usamos cookies estritamente necessários para sessão e segurança. Cookies opcionais dependerão de consentimento antes da ativação.</p></section>}

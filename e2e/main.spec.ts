@@ -1,0 +1,1 @@
+import{test,expect}from'@playwright/test';test('fluxo público até checkout',async({page})=>{await page.goto('/');await expect(page.getByRole('heading',{name:/Sua clínica pronta/})).toBeVisible();await page.getByRole('link',{name:'Comprar agora'}).click();await expect(page.getByRole('heading',{name:'Revise seu pedido'})).toBeVisible()});

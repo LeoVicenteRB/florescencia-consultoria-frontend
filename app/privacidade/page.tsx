@@ -1,0 +1,1 @@
+export const metadata={title:'Privacidade'};export default function Page(){return <section className="panel wrap"><h1>Política de privacidade</h1><p>Versão provisória. Coletamos apenas os dados necessários para cadastro, compra, suporte e segurança, observando finalidade, minimização e controle de acesso.</p></section>}

@@ -1,0 +1,1 @@
+export const metadata={title:'Termos de uso'};export default function Page(){return <section className="panel wrap"><h1>Termos de uso</h1><p>Documento provisório sujeito a revisão jurídica. O produto é um kit digital de gestão documental e não substitui avaliação técnica, sanitária ou jurídica específica.</p></section>}

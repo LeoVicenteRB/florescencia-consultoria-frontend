@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <section className="panel wrap"><p className="eyebrow">ERRO 404</p><h1>Este documento não está nesta pasta.</h1><p>O endereço pode ter mudado ou estar incompleto.</p><Link className="btn primary" href="/">Voltar ao início</Link></section>}
